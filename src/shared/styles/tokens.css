@@ -1,0 +1,24 @@
+:root {
+  --color-primary: #FEF1CF;
+  --color-secondary: #FC3B7F;
+  --color-accent: #0032A8;
+
+  --color-bg: var(--color-primary);
+  --color-surface: var(--color-secondary);
+  --color-on-accent: var(--color-secondary);
+  --color-text: color-mix(in srgb, var(--color-accent) 45%, black);
+  --color-muted: color-mix(in srgb, var(--color-text) 85%, var(--color-bg));
+  --color-border: color-mix(in srgb, var(--color-text) 30%, transparent);
+  --color-field: var(--color-surface);
+
+  /* verde escuro: legível sobre o rosa */
+  --color-positive: #003d1f;
+  --color-positive-soft: #5fd37a;
+
+  /* bolinhas e segmentos da barra */
+  --cat-1: var(--color-accent);
+  --cat-2: var(--color-surface);
+
+  --sidebar-width: 240px;
+  --radius: 14px;
+}
